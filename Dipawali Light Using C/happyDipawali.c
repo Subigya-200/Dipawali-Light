@@ -21,16 +21,14 @@ int main()
         printf("\n");
     }
 
-    printf("       *****");
-    printf("\n");
 
     for (i = 1; i <= n; i++)
     {
-        for (space = 1; space <= (8 + i - 1); space++)
+        for (space = 1; space <= (7 + i - 1); space++)
         {
             printf(" ");
         }
-        for (j = 3; j >= (2 * i) - 1; j--)
+        for (j = 5; j >= (2 * i) - 1; j--)
         {
             printf("*");
 
